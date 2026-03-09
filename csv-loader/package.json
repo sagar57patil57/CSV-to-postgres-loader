@@ -1,0 +1,21 @@
+{
+  "name": "csv-loader",
+  "version": "1.0.0",
+  "description": "Csv to postgres loader",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "pg": "^8.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "author": "",
+  "license": "MIT"
+}
